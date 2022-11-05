@@ -1,0 +1,106 @@
+.img-circle {
+border-radius: 50%
+}
+
+.shadowed {
+    box-shadow: 5px 5px 3px black;
+}
+
+#leader {
+    border: 15px double #c65d7b
+}
+img {
+    width: 300px;
+    height: 400px;
+    }
+    
+/*Colors and fonts*/
+body {
+background-color:#F6E7D8;
+color:#F68989;
+font-family: Arial;
+font-size: 14px;
+}
+h1, h2, h3 { 
+font-family: Arial;
+}
+
+h1 {
+    color:#C65D7B;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 45px;
+    text-transform: none
+}
+h2 {
+    color:#874356;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Domine', serif;
+}
+
+a {
+   text-decoration:none;
+   color:#C65D7B;
+}
+a:hover {
+    color:white
+}
+
+/*Custom design with class*/
+
+.container {
+    width: 1100px;
+    margin: 60px auto;
+}
+
+@media (max-width:760px) {
+    .container {
+      width: 600px;
+    }
+}
+@media (max-width:500px) {
+   .container {
+     width: 400px;
+    }
+}
+
+.card-white {
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0px 30px 50px rgba(198,93,123,0.8);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.btn-blue {
+background-color: #C65D7B ;
+color: #F68989;
+padding: 10px 15px;
+border-radius: 4px;
+}
+.btn-blue:hover {
+background-color: #F68989;
+color: white;
+}
+
+.list-inline {
+ list-style: none;
+ padding-left: 0px;
+}
+.list-inline li {
+ display: inline;
+ padding: 10px;
+}
+.list-inline i {
+ font-size: 30px;
+}
+.list-inline i:hover {
+ background-color: #F68989;
+ color: white; 
+}
+#presentation p {
+margin-bottom: 40px;
+}
